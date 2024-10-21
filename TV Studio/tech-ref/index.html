@@ -1,0 +1,2539 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../procedure/">
+      
+      
+        <link rel="next" href="../tech-spec/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Technical Reference - Vidmeister Operating Instructions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#technical-reference" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+              </button>
+            
+            
+This documentation is continuously updated, and some sections are incomplete. If you have any questions, please contact <a href="mailto:s.sarjudeen@surrey.ac.uk">Sam</a> or <a href="mailto:a.haigh@surrey.ac.uk">Alan</a>.
+
+          </div>
+          
+            <script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Vidmeister Operating Instructions" class="md-header__button md-logo" aria-label="Vidmeister Operating Instructions" data-md-component="logo">
+      
+  <img src="../../assets/uos-logo-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Vidmeister Operating Instructions
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Technical Reference
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_3" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_3">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Health%20and%20Safety/" class="md-tabs__link">
+          
+  
+    
+  
+  Health and Safety
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  TV Studio
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../bookings/" class="md-tabs__link">
+          
+  
+    
+  
+  Bookings
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../equipment/" class="md-tabs__link">
+          
+  
+    
+  
+  Equipment
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../facilities/" class="md-tabs__link">
+          
+  
+    
+  
+  Facilities
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Vidmeister Operating Instructions" class="md-nav__button md-logo" aria-label="Vidmeister Operating Instructions" data-md-component="logo">
+      
+  <img src="../../assets/uos-logo-white.png" alt="logo">
+
+    </a>
+    Vidmeister Operating Instructions
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Health%20and%20Safety/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Health and Safety
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Health and Safety
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Health%20and%20Safety/risk-assessment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Risk Assessment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    TV Studio
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            TV Studio
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../op-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Operational Guides
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../op-resp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Operational Responsibilities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../procedure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Startup and Shutdown Procedure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Technical Reference
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Technical Reference
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#engineering-and-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      Engineering and Control
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Engineering and Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Routing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#broadcast-control-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Broadcast Control System
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Broadcast Control System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categories
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#routemaster" class="md-nav__link">
+    <span class="md-ellipsis">
+      Routemaster
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#salvos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Salvos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vision-mixer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vision Mixer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vision Mixer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Links
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recordreplay-vt-playback-and-evs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Record/Replay, VT Playback and EVS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#graphics-with-casparcg" class="md-nav__link">
+    <span class="md-ellipsis">
+      Graphics with CasparCG
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Graphics with CasparCG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fillkey-channels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fill/Key Channels
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sound" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sound
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comms
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#physical-equipment-and-io-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Physical Equipment and IO Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ipedit" class="md-nav__link">
+    <span class="md-ellipsis">
+      IPEdit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#azedit" class="md-nav__link">
+    <span class="md-ellipsis">
+      AZEdit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neo" class="md-nav__link">
+    <span class="md-ellipsis">
+      NEO
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#panels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panels
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Panels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#talk-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Talk Keys
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#listen-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Listen Keys
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ifbs" class="md-nav__link">
+    <span class="md-ellipsis">
+      IFBs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="IFBs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-of-ifbs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration of IFBs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rundown-creator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rundown Creator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleprompting-rundowns-and-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teleprompting, Rundowns and Scripts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Teleprompting, Rundowns and Scripts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rundown-creator_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rundown Creator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autoscript-winplus-ip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autoscript WinPlus-IP
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lighting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lighting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vision-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vision Engineering
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tech-spec/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tech spec
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../bookings/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Bookings
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Bookings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bookings/use-of-technical-facilities/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use of Technical Facilities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bookings/vehicles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Booking and Use of the Vans
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../equipment/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Equipment
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Equipment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Assets by category
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Assets by category
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Camcorders/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Camcorders
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Camera%20and%20Lens%20Accessories/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Camera and Lens Accessories
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/DSLR%20Cameras/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DSLR Cameras
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Dongles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dongles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Filters/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Filters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Headphones%20and%20Headphone%20Amps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Headphones and Headphone Amps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Lenses/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lenses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Lighting%20Accessories/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lighting Accessories
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Lighting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lighting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Location%20Video%20Monitors/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Location Video Monitors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Mains%20Distribution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mains Distribution
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Mains%20Extensions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mains Extensions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Microphones/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microphones
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Performance%20Equipment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Performance Equipment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Portable%20Recorders/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Portable Recorders
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Stock/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Stock
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Timecode%20Systems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Timecode Systems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Tripods%20%26%20Mounts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tripods &amp; Mounts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Vans/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vans
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/assets_by_category/Wireless%20Systems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wireless Systems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/guides/mixpre6-ux180/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sound Devices MixPre-6 recorders and their use with the Panasonic AG-UX180
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../facilities/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Facilities
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Facilities
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facilities/edit9/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Edit 9
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facilities/ltc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LTC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facilities/patsedits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PATS Edits 4 and 5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facilities/s6suite/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Avid S6 Suite (21 AC 01)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#engineering-and-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      Engineering and Control
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Engineering and Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Routing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#broadcast-control-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Broadcast Control System
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Broadcast Control System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categories
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#routemaster" class="md-nav__link">
+    <span class="md-ellipsis">
+      Routemaster
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#salvos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Salvos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vision-mixer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vision Mixer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vision Mixer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Links
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recordreplay-vt-playback-and-evs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Record/Replay, VT Playback and EVS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#graphics-with-casparcg" class="md-nav__link">
+    <span class="md-ellipsis">
+      Graphics with CasparCG
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Graphics with CasparCG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fillkey-channels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fill/Key Channels
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sound" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sound
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comms
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#physical-equipment-and-io-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Physical Equipment and IO Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ipedit" class="md-nav__link">
+    <span class="md-ellipsis">
+      IPEdit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#azedit" class="md-nav__link">
+    <span class="md-ellipsis">
+      AZEdit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neo" class="md-nav__link">
+    <span class="md-ellipsis">
+      NEO
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#panels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panels
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Panels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#talk-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Talk Keys
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#listen-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Listen Keys
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ifbs" class="md-nav__link">
+    <span class="md-ellipsis">
+      IFBs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="IFBs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-of-ifbs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration of IFBs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rundown-creator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rundown Creator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleprompting-rundowns-and-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teleprompting, Rundowns and Scripts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Teleprompting, Rundowns and Scripts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rundown-creator_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rundown Creator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autoscript-winplus-ip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autoscript WinPlus-IP
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lighting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lighting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vision-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vision Engineering
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="technical-reference">Technical Reference</h1>
+<h2 id="engineering-and-control">Engineering and Control</h2>
+<h3 id="routing">Routing</h3>
+<p>A fundamental aspect of any TV studio is the ability to route signals. Routing allows for flexible control over which video sources are sent to which destinations without physically reconnecting cables. This is essential in a live production environment where multiple sources may be switched or displayed simultaneously for operators and for the different shows and their requirements.</p>
+<p>The most common requirements for routing would be for multiviewers, vision engineering monitoring and changing which sources are available to the vision mixer.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Multiviewers</label><label for="__tabbed_1_2">Vision Engineering</label><label for="__tabbed_1_3">Vision Mixer Sources</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Multiple sources on a single screen</li>
+<li>Operator can change what they see in front of them</li>
+<li>Under monitor displays (UMDs) change reflecting the routed source</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>GPIs from RCPs connected to a control panel</li>
+<li>Touchdowns from each RCP change what appears on the Vision Eng monitor instantly</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Show dependent routing of different sources</li>
+<li>Button labels change automatically</li>
+<li>Don't need to do routing within the vision mixer itself</li>
+</ul>
+</div>
+</div>
+</div>
+<p>The router in the TV studio can handle a large number of inputs and outputs. It is currently set to be 80x120 (in the format of INPUTSxOUTPUTS). This is a non-standard configuration but as the router works on a card/backplane (modular) system, the full capacity of the router (128x128) hasn't been reached. This means that we can change and expand the system to allow for varying sizes and types of IO. The router currently has 3G SDI cards for first 64 inputs and outputs, and HD-SDI cards for the rest. This means the studio is limited to HD-SDI as that is the highest format available everywhere. Having such a large number of inputs and outputs can make managing the routing quite difficult, so we rely on a...</p>
+<h3 id="broadcast-control-system">Broadcast Control System</h3>
+<h4 id="categories">Categories</h4>
+<h4 id="routemaster">Routemaster</h4>
+<p>Combination of all the routers</p>
+<h4 id="salvos">Salvos</h4>
+<p>Running pre-saved configutations</p>
+<h2 id="vision-mixer">Vision Mixer</h2>
+<h3 id="key-links">Key Links</h3>
+<p>Manuals:</p>
+<h2 id="recordreplay-vt-playback-and-evs">Record/Replay, VT Playback and EVS</h2>
+<p>In the TV Studio, we have an EVS XT3 server with a machine running IP Director. The XT3 server is an 8-channel record/replay system where there are 8 channels available to either record or replay. The default configuration is six record channels and two replay channels (6x2). Having two replay channels is useful as we have two controllers (LSM) which can control each output.</p>
+<pre class="mermaid"><code>flowchart LR
+    RouterOutputs["Router Outputs"] --&gt;|Input 1| EVS["EVS Server"]
+    RouterOutputs --&gt;|Input 2| EVS
+    RouterOutputs --&gt;|Input 3| EVS
+    RouterOutputs --&gt;|Input 4| EVS
+    RouterOutputs --&gt;|Input 5| EVS
+    RouterOutputs --&gt;|Input 6| EVS
+
+    EVS --&gt;|"Output 1 (Red)"| RouterInputs["Router Inputs"]
+    EVS --&gt;|"Output 2 (Blue)"| RouterInputs
+
+    classDef box fill:#f9f,stroke:#333,stroke-width:2px;
+    class EVS box;
+
+    linkStyle default interpolate basis;</code></pre>
+<p>The EVS server records continuously on its record channels, sharing the remaining disk space equally; similar to how a CCTV system works. The saving of and addition of clips reduces the available record time.</p>
+<p>All the record channels are routable from the Cerebrum control system, meaning any six sources can be recorded. Usually, this would be the main program output, a clean program output (this is the main program output without any downstream keys such as graphics), the three studio cameras and the studio PTX camera.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: center;">6x2 ProRes</th>
+<th style="text-align: center;">4x4 ProRes</th>
+<th style="text-align: center;">6x2 DNxHD</th>
+<th style="text-align: center;">4x4 DNxHD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Record Channels</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">Playback Channels</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">Video Codec</td>
+<td style="text-align: center;">ProRes 422 (SQ)</td>
+<td style="text-align: center;">ProRes 422 (SQ)</td>
+<td style="text-align: center;">DNxHD 120</td>
+<td style="text-align: center;">DNxHD 120</td>
+</tr>
+<tr>
+<td style="text-align: left;">Audio Codec</td>
+<td style="text-align: center;">PCM 48kHz</td>
+<td style="text-align: center;">PCM 48kHz</td>
+<td style="text-align: center;">PCM 48kHz</td>
+<td style="text-align: center;">PCM 48kHz</td>
+</tr>
+<tr>
+<td style="text-align: left;">Video Wrapper</td>
+<td style="text-align: center;">MOV</td>
+<td style="text-align: center;">MOV</td>
+<td style="text-align: center;">MOV or MXF</td>
+<td style="text-align: center;">MOV or MXF</td>
+</tr>
+<tr>
+<td style="text-align: left;">Audio Record Input</td>
+<td style="text-align: center;">MADI from Calrec Brio desk</td>
+<td style="text-align: center;">MADI</td>
+<td style="text-align: center;">MADI</td>
+<td style="text-align: center;">MADI</td>
+</tr>
+<tr>
+<td style="text-align: left;">Audio Playback Output</td>
+<td style="text-align: center;">MADI to Calrec Brio desk</td>
+<td style="text-align: center;">MADI</td>
+<td style="text-align: center;">MADI</td>
+<td style="text-align: center;">MADI</td>
+</tr>
+</tbody>
+</table>
+<h2 id="graphics-with-casparcg">Graphics with CasparCG</h2>
+<h3 id="fillkey-channels">Fill/Key Channels</h3>
+<p>A critical property of graphics channels is that they overlay only the necessary content on top of sources. In a baseband studio environment, if you were to simply overlay a graphic signal of a lower third, for example, on top of your program output, you would just see that lower third signal with which has the content of the lower third and the rest of the picture would be black. This is not the desired outcome. Therefore, graphics systems such as CasparCG can utilise the use of fill and key signals to allow the correct transparency to be processed in the appropriate areas.</p>
+<pre class="mermaid"><code>graph LR
+    subgraph GFX_PC [GFX PC]
+        GFX1[Channel 1]
+        GFX2[Channel 2]
+    end
+
+    GFX1 --&gt;|Fill| Vision_Mixer
+    GFX1 --&gt;|Key| Vision_Mixer
+    GFX2 --&gt;|Fill| Vision_Mixer
+    GFX2 --&gt;|Key| Vision_Mixer
+
+    Vision_Mixer["Vision Mixer (via Router)"]
+</code></pre>
+<p>The vision mixer takes the fill and key signals and, through the use of a linear key, overlays the fill by using the information of the key signal to only show the appropriate part of the signal. Where the fill would be your standard colour signal, the key is a black to white signal. The vision mixer will not show any of the fill signal where the key is black. It will show 100% of the key signal where the key is white. If the key is grey (e.g. 50% gray), the overlayed fill signal will be translucent. This is done on a pixel-by-pixel basis and affects only the transparency of the fill signal.</p>
+<p>Looking at one of the channels from the CasparCG configuration file, we can see how the channels are setup to be the appropriate format with the appropriate properties depending on the required outputs:</p>
+<div class="language-xml highlight"><span class="filename">Channel 1 of casparcgconfig.xml</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">&lt;channel&gt;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">&lt;video-mode&gt;</span>1080i5000<span class="nt">&lt;/video-mode&gt;</span><span class="w"> </span><span class="cm">&lt;!-- (1) --&gt;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nt">&lt;consumers&gt;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="nt">&lt;decklink&gt;</span><span class="w"> </span><span class="cm">&lt;!--(2)--&gt;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">            </span><span class="nt">&lt;device&gt;</span>1<span class="nt">&lt;/device&gt;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">            </span><span class="nt">&lt;key-device&gt;</span>2<span class="nt">&lt;/key-device&gt;</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">            </span><span class="nt">&lt;embedded-audio&gt;</span>true<span class="nt">&lt;/embedded-audio&gt;</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">            </span><span class="nt">&lt;latency&gt;</span>normal<span class="nt">&lt;/latency&gt;</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">            </span><span class="nt">&lt;keyer&gt;</span>external<span class="nt">&lt;/keyer&gt;</span><span class="w"> </span><span class="cm">&lt;!-- (3) --&gt;</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">            </span><span class="nt">&lt;key-only&gt;</span>false<span class="nt">&lt;/key-only&gt;</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">            </span><span class="nt">&lt;buffer-depth&gt;</span>10<span class="nt">&lt;/buffer-depth&gt;</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">            </span><span class="nt">&lt;custom-allocator&gt;</span>true<span class="nt">&lt;/custom-allocator&gt;</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">        </span><span class="nt">&lt;/decklink&gt;</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">        </span><span class="nt">&lt;ndi&gt;</span><span class="w"> </span><span class="cm">&lt;!-- (4) --&gt;</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">            </span><span class="nt">&lt;name&gt;</span>GFX<span class="w"> </span>Ch.1<span class="nt">&lt;/name&gt;</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">            </span><span class="nt">&lt;allow-fields&gt;</span>false<span class="nt">&lt;/allow-fields&gt;</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">        </span><span class="nt">&lt;/ndi&gt;</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">    </span><span class="nt">&lt;/consumers&gt;</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="nt">&lt;/channel&gt;</span>
+</span></code></pre></div>
+<ol>
+<li>The video format is declared to match the format used in the studio. It is in the format of <code>Vertical pixel count</code> <code>progressive/interlaced</code> <code>frame rate (x100 so that non integer frame rates don't use decimals in the declaration)</code>.</li>
+<li>The main output to be used for the channel is a Decklink device. This is a Blackmagic Design PCIe card that sits inside the PC that outputs the channel over <strong>SDI</strong> connections.</li>
+<li>The keyer will be external i.e. another device will do the processing for the key: the vision mixer. Therefore a <strong>fill and a key signal will be output</strong> from this consumer.</li>
+<li>Here we also declare one of the consumers to be an NDI Output. This makes it available to view over the network.</li>
+</ol>
+<h2 id="sound">Sound</h2>
+<h2 id="comms">Comms</h2>
+<p>One of the most vital parts of a studio and to keep a production running is the comms system. This allows people to communicate with each other across positions and rooms, avoiding the need to constantly traverse rooms to talk to operators and instruct them.</p>
+<p>The TV studio uses an RTS ODIN talkback system as it's matrix. The matrix is reponsible for connecting all the panels and other signals together to ensure that the right person is heard at the right time. This can often be an incredibly complex configuration of different types of keys (the buttons on a keypanel that a user presses down) that can do a variety of things. But it can be built up by thinking first and foremost of the requirements and reviewing the feasibility of them. Once that has been considered the configuration of the comms system can begin.</p>
+<h3 id="physical-equipment-and-io-options">Physical Equipment and IO Options</h3>
+<p>The ODIN sits in the machine room and keypanels and are at each operator's position. The ODIN offers both phyisical and network ports, AIO (Analogue Input Output) and OMNEO (this is Dante with essentially a control layer on top) respectively. We have a 32-channel license which allows 32 ports to be confirgured. It's important to note that it is not just operators' panels that need to be configured as ports, it is also signals between talent that need to be carefully considered, specifically clean feeds and pre-hears, as summarised in the IFB section. The sound mixer can deliver aux outputs to the comms system over Dante for </p>
+<h3 id="configuration">Configuration</h3>
+<p>To configure all the aspects of how the comms system works, the following softwares are used.</p>
+<h4 id="ipedit">IPEdit</h4>
+<p>IP port configuration and management</p>
+<h4 id="azedit">AZEdit</h4>
+<p>General port configuration</p>
+<h4 id="neo">NEO</h4>
+<p>A new product from RTS.</p>
+<h3 id="panels">Panels</h3>
+<h4 id="talk-keys">Talk Keys</h4>
+<h4 id="listen-keys">Listen Keys</h4>
+<h3 id="ifbs">IFBs</h3>
+<h4 id="configuration-of-ifbs">Configuration of IFBs</h4>
+<h2 id="rundown-creator">Rundown Creator</h2>
+<p>Rundown Creator </p>
+<h2 id="teleprompting-rundowns-and-scripts">Teleprompting, Rundowns and Scripts</h2>
+<h3 id="rundown-creator_1">Rundown Creator</h3>
+<p>Rundown creator is a web-based rundown software that allows for the creation of rundowns and scripts for multiple shows. It works on the premise that a show is split into items based on the content or topic, similar to scenes in a film. Each item can have a script written for that item. The inclusion of different types of brackets in a script can change how the script is formatted on the teleprompter.</p>
+<h3 id="autoscript-winplus-ip">Autoscript WinPlus-IP</h3>
+<p>It's important to note that the communication is one-way. Changes made in WinPlus-IP will not be reflected in Rundown Creator.</p>
+<h2 id="lighting">Lighting</h2>
+<h2 id="vision-engineering">Vision Engineering</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.path", "navigation.indexes", "navigation.top", "announce.dismiss", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

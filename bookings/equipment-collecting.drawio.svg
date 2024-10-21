@@ -1,0 +1,141 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="282px" height="802px" viewBox="-0.5 -0.5 282 802" content="&lt;mxfile&gt;&lt;diagram id=&quot;SH2MBWG3dv9VTR6RXJgQ&quot; name=&quot;Page-1&quot;&gt;1VpZk6I6FP41PrYFiYjzOG1vt2pmaqrsWzP9mIYoKQPxhrj1r78JhDW2ha2AvlieE8JyzvedDQZwGu6eOVoFP5mP6QBY/m4AHwYAuMCWv0qxTxWOqxULTvxUVVLMyAfWSktr18THceVAwRgVZFVVeiyKsCcqOsQ521YPmzNaveoKLbChmHmImto/xBdBqp04VqF/wWQRZFe2Lb0SouxgrYgD5LNtSQUfB3DKGRPpv3A3xVTZLrNLuu/pk9X8xjiORJMNwvuYzP4Czyf7u/Hb64+7EKA7mJ5lg+haP7C+WbHPLIB9aRAtMi4CtmARoo+F9h7viPgrV62ho6U3Kdn6/4OCgpUJ+0yIBN+XNinxrbxWbEukbB9n68jHvpbmLBJPKCRULb9gusGCeEgumMbR9orZmnv4iEUykCG+wOLIcdpQyjqlC2jTP2MWYnnb8gCOKRJkU4UT0qhc5McVjpN/tO9O8KNt+HEaYG+pts0TdzIuWQTGAwBtZTgiBYutcGS4+1wDbzAXeHfUJHp1oomhI4M90vK24JmdkScocWxstWTEySXI0DpAQUOAutcFUMsw7i920Lw/0LtMIfAeUbKIpNqTFsJcKhSypPHod70QEt9PTY5j8oHek5Moo68YiUTyAM79wHk4zQ1HkVHHdp539NUrof0Q5u+sIQRwUgV+KjX2gz75b/WUxZndQ+fMtrP5PJZgqTsxv78z/AouT5qv5oYeyQYmV8U2YHrlTcX/G6FbDqpL8A2AkXsewzSnRl1xynTeP3Epiad5Gz6ZqTtg4fs67jZtg6Zpe9JW2v52iQh0uIbNy9bjNaxdiVJF0OqrhnUbRi37qoKWa/jxDyIiadr4oRpWsM9q2Dbhn+M9w7/Td9lqjy6fgttorJp2Vja8KljaZm/1ipZYYW+t0CkCXALlK0dRnKB2ifedArMWl0eT3nE5vg1cwqa4dK4Ll+bs5t+IsqTpz1HYH/6c3vEHTOKejb+vtiaJ9BtzIh9NVdetgdlpCGZw8fHA4bbUrqVLt14Gpneqd7XQnzoGCH6m0XsvbRljOi8F72XEtpGyHjPiel58C+wFEfEI6rbsqLFr3D+7zHJtyihVM/jUtiXj4f/WZBXiyAxIseBsmU/WgTJ0gFZqMdwt1AuF4ZyyrRcgLoaSOCGJkHREtx2O27+tL9Li1CJZh0P7NgYzk6ZZ+7qaHGjS5pYmMzkSLzKZGY1hhWlZQ3puzqkWItXt7Y1tYAv1Rsg22qB2zb+JzAQSJdnHFJdl7JOyWPWQXSH0aROMPgkNrW4qF+DWClqrWeXynXO0Lx2mSdgG4MwG64beqcDP8vLJocQajkcQVJwFLhJI8h6retYOJsDmq8gXFJuF1TtjSxIt1D1RjpG/r1SssmhSgeRKBsVw3PegGJq9QL9l1Ilz4xaibhZMb66MMl8nV4bFn/Ikae0Sahiu73JqDN2+ewrYwtT4S2SQQn0wckV9RpZXun+X0myekssdzVMye5jzlJxjOeuYmqXMyMysSW6h7W/xcyQpFt/9pZ4pPp6Ej/8D&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <path d="M 61 161 L 61 194.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 61 199.88 L 57.5 192.88 L 61 194.63 L 64.5 192.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="1" y="101" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="60.5" y="128.5">
+                Check if stores
+            </text>
+            <text x="60.5" y="142.5">
+                is open
+            </text>
+        </g>
+        <path d="M 121 241 L 154.63 241" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 159.88 241 L 152.88 244.5 L 154.63 241 L 152.88 237.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="11px">
+            <rect fill="rgb(255, 255, 255)" stroke="none" x="135" y="236" width="16" height="14" stroke-width="0"/>
+            <text x="142" y="245.5">
+                No
+            </text>
+        </g>
+        <path d="M 61 281 L 61 314.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 61 319.88 L 57.5 312.88 L 61 314.63 L 64.5 312.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="11px">
+            <rect fill="rgb(255, 255, 255)" stroke="none" x="52" y="296" width="20" height="14" stroke-width="0"/>
+            <text x="61" y="305.5">
+                Yes
+            </text>
+        </g>
+        <path d="M 61 201 L 121 241 L 61 281 L 1 241 Z" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="60.5" y="245.5">
+                Is stores open?
+            </text>
+        </g>
+        <path d="M 221 211 L 221 131 L 127.37 131" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 122.12 131 L 129.12 127.5 L 127.37 131 L 129.12 134.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="161" y="211" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="220.5" y="238.5">
+                Wait for stores
+            </text>
+            <text x="220.5" y="252.5">
+                to open
+            </text>
+        </g>
+        <path d="M 61 501 L 61 534.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 61 539.88 L 57.5 532.88 L 61 534.63 L 64.5 532.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="1" y="441" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="60.5" y="468.5">
+                Take out the
+            </text>
+            <text x="60.5" y="482.5">
+                Transit key
+            </text>
+        </g>
+        <path d="M 61 601 L 61 634.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 61 639.88 L 57.5 632.88 L 61 634.63 L 64.5 632.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="1" y="541" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="60.5" y="575.5">
+                Unlock Transit
+            </text>
+        </g>
+        <path d="M 61 701 L 61 734.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 61 739.88 L 57.5 732.88 L 61 734.63 L 64.5 732.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="1" y="641" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="60.5" y="661.5">
+                Make yourself
+            </text>
+            <text x="60.5" y="675.5">
+                known to the
+            </text>
+            <text x="60.5" y="689.5">
+                stores technician
+            </text>
+        </g>
+        <path d="M 37.73 741 L 84.27 741 C 104.55 741 121 754.43 121 771 C 121 787.57 104.55 801 84.27 801 L 37.73 801 C 17.45 801 1 787.57 1 771 C 1 754.43 17.45 741 37.73 741 Z" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="60.5" y="768.5">
+                Collect your
+            </text>
+            <text x="60.5" y="782.5">
+                equipment
+            </text>
+        </g>
+        <path d="M 61 401 L 61 434.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 61 439.88 L 57.5 432.88 L 61 434.63 L 64.5 432.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="11px">
+            <rect fill="rgb(255, 255, 255)" stroke="none" x="52" y="416" width="20" height="14" stroke-width="0"/>
+            <text x="61" y="425.5">
+                Yes
+            </text>
+        </g>
+        <path d="M 121 361 L 154.63 361" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 159.88 361 L 152.88 364.5 L 154.63 361 L 152.88 357.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="11px">
+            <rect fill="rgb(255, 255, 255)" stroke="none" x="134" y="356" width="16" height="14" stroke-width="0"/>
+            <text x="141" y="365.5">
+                No
+            </text>
+        </g>
+        <path d="M 61 321 L 121 361 L 61 401 L 1 361 Z" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="60.5" y="351.5">
+                Has your
+            </text>
+            <text x="60.5" y="365.5">
+                booking already
+            </text>
+            <text x="60.5" y="379.5">
+                started?
+            </text>
+        </g>
+        <path d="M 221 391 L 221 471 L 127.37 471" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 122.12 471 L 129.12 467.5 L 127.37 471 L 129.12 474.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="161" y="331" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="220.5" y="358.5">
+                Wait for your
+            </text>
+            <text x="220.5" y="372.5">
+                booking to start
+            </text>
+        </g>
+        <path d="M 61 61 L 61 94.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 61 99.88 L 57.5 92.88 L 61 94.63 L 64.5 92.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 37.73 1 L 84.27 1 C 104.55 1 121 14.43 121 31 C 121 47.57 104.55 61 84.27 61 L 37.73 61 C 17.45 61 1 47.57 1 31 C 1 14.43 17.45 1 37.73 1 Z" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="60.5" y="28.5">
+                Make booking
+            </text>
+            <text x="60.5" y="42.5">
+                on SiSo
+            </text>
+        </g>
+    </g>
+</svg>
